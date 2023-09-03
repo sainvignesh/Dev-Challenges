@@ -11,7 +11,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/nightfall-artist/Dev-Challenges/tree/main/404%20NOT%20FOUND">
       Solution
     </a>
     <span> | </span>
