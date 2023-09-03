@@ -1,0 +1,358 @@
+/* Style By Sai Naga Vignesh */
+
+/* Import */
+/* Inconsolata */ @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+/* Space Mono */  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Montserrat */  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Default */
+*{
+    color: #fff;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+body{
+    border-radius: 8px;
+    background: #FFF;
+    /* box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10); */
+}
+
+h1{
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    display: flex;
+}
+.Info{
+    margin-top: 96px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40% 10%;
+    column-gap: 10rem;
+}
+
+.crow{
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+}
+
+.title{
+    width: 586px;
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+.details{
+    width: 381px;
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin-top: -32px;
+}
+
+.bth{
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: var(--gray-1, #333);
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+footer{
+    margin:auto;
+    margin-left: -2rem;
+    padding: 8px;
+    color: #333;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+}
+
+small{
+    color: #333;
+}
+
+a{
+    color: #313131;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+/* Responsive */
+
+/* Laptop */
+
+@media screen and (max-width:1280px) {
+
+    *{
+        margin-left: 8px;
+    }
+    
+    .Info{
+        margin-top: 96px;
+        display: grid;
+        grid-template-columns: 50% 40%;
+        column-gap: 24px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width:1024px) {
+    .Info{
+        margin-top: 96px;
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 50% 50%;
+        column-gap: 24px;
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (max-width:884px) {
+    .Info{
+        margin-top: 2rem;
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width:880px) {
+
+    .Info{
+        margin-left: 7rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .Info{
+        margin-left: 6rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Info{
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    .crow{
+        width: 30rem;
+        height: auto;
+        margin-left: 2rem;
+    }
+
+    .details{
+        margin-top: -3rem;
+    }
+}
+
+@media screen and (max-width: 688px){
+    .Info{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .Info{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        overflow: hidden;
+    }
+
+    .crow{
+        width: 30rem;
+        height: auto;
+    }
+
+    .title{
+        font-size: 56px;
+        margin-left: 2rem;
+    }
+    
+    .details{
+        font-size: 24px;
+        margin-left: 2rem;
+    }
+    
+    .bth{
+        margin-left: 2rem;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:428px) {
+    
+    .Info{
+        margin-left: -0.5rem;
+    }
+
+    .crow{
+        width: 20rem;
+        height: auto;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .details{
+        width: 240px;
+        font-size: 16px;
+        margin-top: -1rem;
+    }
+
+    .bth{
+        width: 200px;
+        height: 56px;
+        padding: 5% 5% 10% 5%;
+    }
+
+    footer, .right{
+        margin:auto;
+        margin-left: -1rem;
+        padding: 8px;
+        color: #333;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 24px;
+    }
+
+    small{
+        color: #333;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:394px) {
+    .Info{
+        margin-left: -1.5rem;
+        margin-top: -1rem;
+    }
+
+    .title{
+        margin-top: -2rem;
+    }
+
+    .details{
+        margin-top: -2rem;
+    }
+
+    .bth{
+        width: auto 100%;
+        height: auto;
+        margin-top: -0.3rem;
+        padding: 10% 10% 10% 10%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .Info{
+        margin-top: -1rem;
+    }
+
+    .bth{
+        width: 200px;
+        height: 56px;
+        padding: 5% 5% 5% 5%;
+    }
+}
+
+@media screen and (max-width:364px) {
+    .crow{
+        width: 19rem;
+        height: auto;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    .details{
+        margin-top: -1rem;
+    }
+
+    footer, .right{
+        margin:auto;
+        margin-left: -1rem;
+        padding: 8px;
+        color: #333;
+        text-align: center;
+        /* background: #bfbfbf; */
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 20px;
+    }
+
+    .crow{
+        width: 12rem;
+        height: auto;
+        margin-left: 4rem;
+    }
+
+    .title{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+
+    .details{
+        font-size: 13px;
+        margin-top: -24px;
+    }
+
+    .bth{
+        width: auto;
+        height: auto 0 auto 0;
+        font-size: 10px;
+        margin-top: -5px;
+        padding: 5% 5% 10% 5%;
+    }
+}
