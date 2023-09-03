@@ -29,7 +29,6 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
@@ -44,7 +43,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - What was your experience?
   I'm a Web Designer. I have experience in this field 1 year of experience. During this challenge/project, I experienced that client requirements are major not just simple to do. Every pixel is important in web design or development. 
 - What have you learned/improved?
-  I have learnt that basics are important. Because I use generally Bootstrap I forgot how to do responsive with only CSS. I think basics should be revised everyday 😜
+  I have learnt that basics are important. Because I use generally Bootstrap I forgot how to do responsive with only CSS. I think basics should be revised 
+  everyday 😜
 - Your wisdom?
   Simple project with basic knowledge and basic body pains 🤣
 
@@ -57,11 +57,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+<!-- List the features of your application or follow the template. Don't share the Figma file here :) -->
 
 This application 404 NOT FOUND was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/nightfall-artist)
-- Twitter [@your-twitter](https://twitter.com/NightfallArtist)
+- GitHub [@nightfall_artist](https://github.com/nightfall-artist)
+- Twitter [@nightfall_artist](https://twitter.com/NightfallArtist)
